@@ -1,0 +1,40 @@
+body {
+    margin:0;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f7;
+}
+
+.marks .land {
+  fill: #ececec;
+}
+.marks .sphere {
+  fill: #fbfbfb;
+}
+.marks .interiors {
+  fill: none;
+  stroke: #d9dfe0;
+}
+.marks .graticules {
+  fill: none;
+  stroke: #ececec;
+}
+circle {
+  fill: #137B80;
+  opacity: 0.3;
+}
+
+.tick line {
+    stroke: #C0C0BB;
+  }
+  .tick text {
+    fill: #635F5D;
+  }
+  .mark {
+    fill: #137B80;
+  }
+
+  .axis-label {
+    font-size: 2.2em;
+    fill: #635F5D;
+  }
